@@ -1,0 +1,13 @@
+&.block-section-numbers{
+    .boxed-shadow{
+        box-shadow: 6px 5px 9px 0 rgba(0, 0, 0, 0.16);
+        background-color: rgb(249, 249, 249);
+        text-align: center;
+        padding: 2rem;
+        margin: 2rem;
+
+        svg{
+            width: 20%;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+// ---------------------------------------------------------
+// Reset
+// ---------------------------------------------------------
+
+* {
+	&, &:before, &:after {
+        box-sizing: border-box;
+    }
+}
+
+body{
+    margin: 0;
+}
+
+html{
+    font-size: 100%;
+}
+
+nav{
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 1.8rem;
+    @media screen and (min-width: $screen-md){
+        font-size: 2.5rem;
+    }
+}
+
+h2{
+    font-size: 1.5rem;
+    @media screen and (min-width: $screen-md){
+        font-size: 2rem;
+    }
+}
+
+h3{
+    font-size: 1.3rem;
+    @media screen and (min-width: $screen-md){
+        font-size: 1.8rem;
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+		&:hover{
+			text-decoration: none;
+		}
+}
+
+figure {
+	margin: 0;
+}

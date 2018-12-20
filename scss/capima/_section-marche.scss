@@ -1,0 +1,37 @@
+&.block-section-marche{
+    h2.title-marche{
+        margin: 1rem 0;
+        text-align: center;
+        font-weight: bold;
+        color: $color-1;
+    }
+    .subtitle-marche{
+        color: $warm-grey;
+        text-align: center;
+    }
+
+    #accordion{
+        .card{
+            background-color: $white-grey;
+            border: none; 
+            margin-bottom: 1rem; 
+            .card-header{
+                background-color: transparent;
+                border-bottom: none;
+                .title-card{
+                    button{
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        color: $color-1;
+                        width: 100%;
+                        text-align: left;
+                        text-decoration: none;
+                    }
+                }
+            } // card header
+            .card-body{
+                padding: 2rem;
+            }
+        }
+    }
+}

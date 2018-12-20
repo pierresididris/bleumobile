@@ -1,0 +1,19 @@
+
+// ---------------------------------------------------------
+// Main
+// ---------------------------------------------------------
+
+/// Import each block section
+
+.block-main{
+    .block-section{
+        padding: 2rem 1rem;
+        @import "capima/section-background";
+        @import "capima/section-numbers"; 
+        @import "capima/section-concept";
+        @import "capima/section-assets";
+        @import "capima/section-products";
+        @import "capima/section-marche";
+        @import "capima/section-contact"; 
+    }
+}

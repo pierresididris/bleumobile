@@ -1,0 +1,16 @@
+
+// ---------------------------------------------------------
+// Header
+// ---------------------------------------------------------
+
+// _nav.scss import to bottom
+
+header.block-header{
+    background: $filter;
+    @media screen and (min-width: $screen-md){
+        background: none;
+    }
+}
+
+/// Import nav
+@import "capima/nav"; 

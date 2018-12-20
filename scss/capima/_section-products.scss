@@ -1,0 +1,38 @@
+&.block-section-products{
+    h2.subtitle-products{
+        text-align: center;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $color-1;
+    }
+    .subtitle-products{
+        text-align: center;
+        color: $warm-grey;
+    }
+    .content-prices{
+        box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.16);
+        background-color: rgb(255, 255, 255);
+        padding: 2rem;
+        margin: 2rem 0;
+        h3.system{
+            text-align: center;
+            color: $color-2;
+            font-weight: bold;
+        }
+        .price{
+            text-align: center;
+            color: $color-2;
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
+        p{
+            color: $warm-grey;
+            padding: 2rem 0;
+        }
+        ul.list-advantages{
+            color: $color-1;
+            font-weight: bold;
+        }
+    }
+}

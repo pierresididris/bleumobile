@@ -1,0 +1,67 @@
+&.block-section-concept{
+    h2.title-concept{
+        margin: 1rem 0;
+        text-align: center;
+        font-weight: bold;
+        color: $color-1;
+    }
+    .subtitle-concept{
+        color: $warm-grey;
+        padding: 1rem 0;
+        text-align: center;
+    }
+}
+
+@media (min-width :$screen-lg){
+    &.block-section-concept{
+        background-image:url(img/rawpixel-415585-unsplash.jpg);
+        background-position: center center;
+        background-size: cover;
+        padding: 0px;
+        position: relative;
+        .colorbackground{
+            background-color: darkblue;
+            opacity: .8;
+            padding: 25px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+        h2.title-concept{
+            font-family: $font-title;
+            color: white;
+            padding: 40px 0 20px 0; 
+        }
+        .subtitle-concept{
+            color: white;
+            padding-bottom: 40px;;
+            text-align: center;
+            font-size: 20px;
+        }
+        .text-content{
+            color: white;
+            padding-bottom: 40px;
+            font-size: 18px;
+        }
+        .title-advantages{
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .concept-wave-1{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        .concept-wave-2{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+    }
+}

@@ -1,0 +1,50 @@
+&.block-section-contact{
+    background-color: $white-grey;
+    h2.title-contact{
+        margin: 1rem 0;
+        text-align: center;
+        font-weight: bold;
+        color: $color-1;
+    }
+    .subtitle-contact{
+        color: $warm-grey;
+    }
+    h3.subtitle-offices{
+        color: $color-1;
+        font-weight: 500;
+        padding: 1rem 0;
+    }
+    .list-adress{
+        li{
+            a{
+                color: $color-1;
+                font-weight: 700;
+            }
+        }
+    }
+    #form-contact{
+        margin: 2rem 0;
+        text-align: center;
+        input{
+            margin: .5rem 0;
+        }
+        .form-check{
+            padding: 0;
+            margin: 1rem 0;
+            .form-check-label{
+                margin-left: 1rem;
+                font-size: .8rem;
+            }
+            .form-check-input{
+                margin: 0;
+                margin-top: .5rem;
+            }
+        }
+        .btn-primary{
+            background: linear-gradient(62deg, #6a275e, #322d75);
+            color: white;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+}

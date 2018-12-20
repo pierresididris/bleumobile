@@ -1,0 +1,13 @@
+// ---------------------------------------------------------
+// Commons
+// ---------------------------------------------------------
+
+button.btn-primary{
+    border-radius: 42px;
+    border: solid 1px rgb(112, 112, 112);
+    background-color: rgb(255, 255, 255);
+    color: $color-1;
+    font-family: $font-btn;
+    text-transform: uppercase;
+    padding: .5rem 2rem;
+}

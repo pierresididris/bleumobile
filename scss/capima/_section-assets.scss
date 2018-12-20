@@ -1,0 +1,19 @@
+&.block-section-assets{
+    h2.subtitle-assets{
+        margin: 1rem 0;
+        font-weight: bold;
+        color: $color-1;
+    }
+    .text-content{
+        color: $warm-grey;
+    }
+    .content-assets{
+        box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.16);
+        background-color: $white-grey;
+        padding: 2rem;
+        margin: 2rem 0;
+        svg{
+            width: 20%;
+        }
+    }
+}

@@ -25,6 +25,12 @@
     }
     .text-content{
         color: white;
+        @media screen and (min-width: $screen-lg){
+            width: 100%;
+            display: flex;
+            align-content: center;
+            align-items: center;
+        }
         h1.main-title{
             margin-bottom: 1rem;
             font-weight: 700;

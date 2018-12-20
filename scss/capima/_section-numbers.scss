@@ -5,7 +5,9 @@
         text-align: center;
         padding: 2rem;
         margin: 2rem;
-
+        @media screen and (min-width: $screen-lg){
+            margin: 2rem 0;
+        }
         svg{
             width: 20%;
         }

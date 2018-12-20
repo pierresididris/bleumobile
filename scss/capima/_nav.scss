@@ -4,8 +4,27 @@
 // ---------------------------------------------------------
 
 nav.navbar{
+    @media screen and (min-width: $screen-lg){
+        justify-content: space-between;
+    }
     .navbar-brand{
         color: white;
+        svg{
+            .cls-1, .cls-2, .cls-3 {
+                fill: #fff;
+              }
+        
+              .cls-2 {
+                font-size: 34px;
+                font-family: Montserrat-Regular, Montserrat;
+              }
+        
+              .cls-3 {
+                font-size: 22px;
+                font-family: Montserrat-Bold, Montserrat;
+                font-weight: 700;
+              }
+        }
     }
     .navbar-toggler{
         border-color: white;
@@ -14,8 +33,15 @@ nav.navbar{
         }
     }
     .navbar-collapse{
+        @media screen and (min-width: $screen-lg){
+            flex-grow: inherit;
+            align-self: flex-end;
+         }
         ul.navbar-nav{
             li.nav-item{
+                @media screen and (min-width: $screen-lg){
+                    padding: 0 1rem;
+                }
                 a.nav-link{
                     color: white;
                 }

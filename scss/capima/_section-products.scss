@@ -35,4 +35,11 @@
             font-weight: bold;
         }
     }
+    @media (min-width :$screen-lg){
+        .img-background{
+            background-image: url(img/paladini-mauro-optikmovie-631896-unsplash.jpg);
+            background-position: center center;
+            background-size: cover;
+        }
+    }
 }

@@ -7,8 +7,17 @@
 
 header.block-header{
     background: $filter;
+    .navbar-brand{
+        .logo{
+            max-width: 50%;
+        }
+    }
     @media screen and (min-width: $screen-md){
         background: none;
+    }
+    @media screen and (min-width: $screen-md){
+        position: fixed;
+        
     }
 }
 

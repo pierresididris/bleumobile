@@ -60,4 +60,7 @@
             fill: #fff;
         }
     }
+    @media screen and (min-width: $screen-md){
+        padding-top: 100px;
+    }
 }
